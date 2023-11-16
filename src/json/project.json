@@ -1,0 +1,58 @@
+{
+    "project" : [
+        {
+            "num" : 1,
+            "name" : "GYEONGGI-DO MUSEUM (CLONE)",
+            "date" : "2023-10-10 ~ 2023-10-11",
+            "lang" : "HTML,SCSS,JS,jQuery",
+            "img" : "/imgs/project01.jpg",
+            "github" : "https://github.com/yonghoon1013/seoul",
+            "link" : "https://yonghoon1013.github.io/seoul/"
+        },
+        {
+            "num" : 2,
+            "name" : "SEOUL BOTANIC PARK (RENEWAL)",
+            "date" : "2023-10-10 ~ 2023-10-11",
+            "lang" : "HTML,SCSS,JS,jQuery",
+            "img" : "/imgs/figma.png",
+            "github" : "https://github.com/yonghoon1013/seoul",
+            "link" : "https://yonghoon1013.github.io/seoul/"
+        },
+        {
+            "num" : 3,
+            "name" : "clone",
+            "date" : "2023-10-10 ~ 2023-10-11",
+            "lang" : "HTML,SCSS,JS,jQuery",
+            "img" : "/imgs/js.png",
+            "github" : "https://github.com/yonghoon1013/seoul",
+            "link" : "https://yonghoon1013.github.io/seoul/"
+        },
+        {
+            "num" : 4,
+            "name" : "clone",
+            "date" : "2023-10-10 ~ 2023-10-11",
+            "lang" : "HTML,SCSS,JS,jQuery",
+            "img" : "/imgs/project01.jpg",
+            "github" : "https://github.com/yonghoon1013/seoul",
+            "link" : "https://yonghoon1013.github.io/seoul/"
+        },
+        {
+            "num" : 5,
+            "name" : "clone",
+            "date" : "2023-10-10 ~ 2023-10-11",
+            "lang" : "HTML,SCSS,JS,jQuery",
+            "img" : "/imgs/css.png",
+            "github" : "https://github.com/yonghoon1013/seoul",
+            "link" : "https://yonghoon1013.github.io/seoul/"
+        },
+        {
+            "num" : 6,
+            "name" : "clone",
+            "date" : "2023-10-10 ~ 2023-10-11",
+            "lang" : "HTML,SCSS,JS,jQuery",
+            "img" : "/imgs/html.png",
+            "github" : "https://github.com/yonghoon1013/seoul",
+            "link" : "https://yonghoon1013.github.io/seoul/"
+        }
+    ]
+}
