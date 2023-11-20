@@ -8,9 +8,11 @@ function Contact() {
     const [resetText, setResetText] = useState('');
     const [comment, setComment] = useState([]);
     const bottom = useRef();
+    const [commentLength,setCommentLength] = useState('');
 
     const scrollBottom = () => {
         bottom.current.scrollTop = bottom.current.scrollHeight;
+
     }
 
 
@@ -22,7 +24,10 @@ function Contact() {
         await axios.post(`https://port-0-portfolioserver-3szcb0g2blozeh8s7.sel5.cloudtype.app/postcomment`, objData);
         commentLoading();
         setResetText('');
+        console.log(comment.length);
+        setCommentLength(comment.length);
     }
+    
 
     const commentLoading = async () => {
         await axios.get('https://port-0-portfolioserver-3szcb0g2blozeh8s7.sel5.cloudtype.app/getcomment')
@@ -33,7 +38,7 @@ function Contact() {
 
 
     useEffect(() => {
-        scrollBottom();
+            scrollBottom();
     }, [comment]);
 
     useEffect(() => {

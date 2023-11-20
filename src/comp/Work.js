@@ -76,9 +76,10 @@ function Work() {
                                     <p className='date'>{item.date}</p>
                                     <div className='projectTitle'>{item.name}
                                         <p>
-                                            <a href={item.link} target="_blank"><img src='/imgs/internet.svg'></img></a>
-                                            <a href={item.github} target="_blank"><img src='/imgs/github.png'></img></a>
+                                            <a className='webLink' href={item.link} target="_blank"></a>
+                                            <a className='gitLink' href={item.github} target="_blank"></a>
                                         </p>
+                                        {/* <img src='/imgs/internet.svg'></img> */}
                                     </div>
                                     <p className='lang'>{item.lang}</p>
                                 </li>

@@ -21,10 +21,8 @@ function Header() {
   const scrollEvent = () =>{
     setPrevScrollY(window.pageYOffset)
     if(prevScrollY < window.pageYOffset){
-      console.log("스크롤따운");
       setScrollY(true)
     } else{
-      console.log("스크롤업");
       setScrollY(false)
     }
   }
@@ -39,7 +37,7 @@ function Header() {
 
 
   return (
-    <div className={`head ${scrollY ? "on" : "off"}`}>
+    <div className={`head ${scrollY ? "off" : "on"}`}>
       <ul>
         <li>
           <Link to='about' smooth={true}>

@@ -10,7 +10,7 @@ function About() {
         <section id='about' className='aboutBox'>
             <div className='aboutTitle' data-aos="fade-up" data-aos-duration="1000">
                 <span>Front-End</span>
-                <h2 className='myName'>Jung Yong-Hoon</h2>
+                <h2 className='myName'>Jung Yong Hoon</h2>
             </div>
             <div className='aboutCon'>
                 <div className='left' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">

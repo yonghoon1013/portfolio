@@ -2,55 +2,55 @@
     "project" : [
         {
             "num" : 1,
-            "name" : "GYEONGGI-DO MUSEUM (CLONE)",
+            "name" : "GROCERY",
             "date" : "2023-10-10 ~ 2023-10-11",
-            "lang" : "HTML,SCSS,JS,jQuery",
-            "img" : "/imgs/project01.jpg",
+            "lang" : "NEXT, SCSS, MySql",
+            "img" : "/imgs/grocery.jpg",
             "github" : "https://github.com/yonghoon1013/seoul",
             "link" : "https://yonghoon1013.github.io/seoul/"
         },
         {
             "num" : 2,
-            "name" : "SEOUL BOTANIC PARK (RENEWAL)",
+            "name" : "CAMP",
             "date" : "2023-10-10 ~ 2023-10-11",
-            "lang" : "HTML,SCSS,JS,jQuery",
+            "lang" : "REACT, SCSS",
             "img" : "/imgs/figma.png",
             "github" : "https://github.com/yonghoon1013/seoul",
             "link" : "https://yonghoon1013.github.io/seoul/"
         },
         {
             "num" : 3,
-            "name" : "clone",
-            "date" : "2023-10-10 ~ 2023-10-11",
-            "lang" : "HTML,SCSS,JS,jQuery",
-            "img" : "/imgs/js.png",
+            "name" : "MOVIE",
+            "date" : "2023-08-29 ~ 2023-09-08",
+            "lang" : "REACT, SCSS",
+            "img" : "/imgs/movie.gif",
             "github" : "https://github.com/yonghoon1013/seoul",
             "link" : "https://yonghoon1013.github.io/seoul/"
         },
         {
             "num" : 4,
-            "name" : "clone",
-            "date" : "2023-10-10 ~ 2023-10-11",
-            "lang" : "HTML,SCSS,JS,jQuery",
-            "img" : "/imgs/project01.jpg",
+            "name" : "SEOUL BOTANIC PARK (RENEWAL)",
+            "date" : "2023-07-24 ~ 2023-08-25",
+            "lang" : "HTML, SCSS, JS, jQuery",
+            "img" : "/imgs/seoul.gif",
             "github" : "https://github.com/yonghoon1013/seoul",
             "link" : "https://yonghoon1013.github.io/seoul/"
         },
         {
             "num" : 5,
-            "name" : "clone",
-            "date" : "2023-10-10 ~ 2023-10-11",
-            "lang" : "HTML,SCSS,JS,jQuery",
-            "img" : "/imgs/css.png",
-            "github" : "https://github.com/yonghoon1013/seoul",
-            "link" : "https://yonghoon1013.github.io/seoul/"
+            "name" : "GYEONGGI-DO MUSEUM (CLONE)",
+            "date" : "2023-06-30 ~ 2023-07-31",
+            "lang" : "HTML, SCSS, JS, jQuery",
+            "img" : "/imgs/gyeonggi-do.gif",
+            "github" : "https://github.com/yonghoon1013/gyeonggiDoClone",
+            "link" : "https://yonghoon1013.github.io/gyeonggiDoClone/clone/"
         },
         {
             "num" : 6,
-            "name" : "clone",
-            "date" : "2023-10-10 ~ 2023-10-11",
-            "lang" : "HTML,SCSS,JS,jQuery",
-            "img" : "/imgs/html.png",
+            "name" : "PETSALON (개발중)",
+            "date" : "2023-11-24 ~ ",
+            "lang" : "NEXT, SCSS, MongoDB",
+            "img" : "/imgs/petsalon.png",
             "github" : "https://github.com/yonghoon1013/seoul",
             "link" : "https://yonghoon1013.github.io/seoul/"
         }

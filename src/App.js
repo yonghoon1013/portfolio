@@ -1,5 +1,5 @@
-import './App.scss';
 import './Reset.scss';
+import './App.scss';
 import Header from './comp/Header';
 import Home from './pages/Home';
 
