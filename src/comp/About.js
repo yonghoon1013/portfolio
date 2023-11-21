@@ -20,7 +20,7 @@ function About() {
                     </p>
 
                     <p className='b'>
-                        안녕하세요 소개 간단히 줄르르를극 안녕하세요 소개 간단히 줄르르를극 안녕요 소개 간단히 줄르르를극안녕하세요 소개 간단히 줄르르를극 안녕하세요 소개 간단
+                        안녕하세요 저는...
                     </p>
                 </div>
                 <div className='right' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" >
