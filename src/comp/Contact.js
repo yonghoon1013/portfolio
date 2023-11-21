@@ -51,19 +51,20 @@ function Contact() {
             <p className='title'>CONTACT</p>
             <div className='contactCon'>
                 <div className='left'>
-                    <div data-aos="fade-up" data-aos-duration="3000" className='card'>
+                    <div data-aos="fade-up" data-aos-duration="2000" className='card'>
                         <div className='logo'>
                             <img src='/imgs/logo.svg'></img>
                         </div>
                         <p className='c'>
                             <span className='person'>정용훈</span>
+                            <span className='phone'>010 - 2822 - 0861</span>
                             <a href="mailto:jyh7690861@naver.com" className='mail'>jyh7690861@naver.com</a>
                             <a href='https://github.com/yonghoon1013' target='_blank' className='github'>https://github.com/yonghoon1013</a>
                         </p>
                     </div>
                 </div>
 
-                <div className='right' data-aos="fade-left" data-aos-duration="2000">
+                <div className='right'  data-aos="fade-up" data-aos-duration="2000">
                     <p>후기를 남겨주세요</p>
                     <div ref={bottom} className='commentBox'>
                         {
