@@ -25,7 +25,7 @@ function About() {
                 </div>
                 <div className='right' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" >
                     <div className='myBox'>
-                        <img src='/imgs/me.png'></img>
+                        <img src='/imgs/yh.jpg'></img>
                     </div>
                 </div>
             </div>

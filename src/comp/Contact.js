@@ -64,6 +64,7 @@ function Contact() {
                 </div>
 
                 <div className='right' data-aos="fade-left" data-aos-duration="2000">
+                    <p>후기를 남겨주세요</p>
                     <div ref={bottom} className='commentBox'>
                         {
                             comment.map((item, k) => (

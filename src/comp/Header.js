@@ -37,7 +37,7 @@ function Header() {
 
 
   return (
-    <div className={`head ${scrollY ? "off" : "on"}`}>
+    <div className={`head ${scrollY ? "on" : "off"}`}>
       <ul>
         <li>
           <Link to='about' smooth={true}>
