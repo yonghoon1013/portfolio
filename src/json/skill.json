@@ -50,12 +50,12 @@
             {
                 "name": "MariaDB",
                 "img": "/imgs/mariadb.png",
-                "comment": "웹 접근성과 보안을 지켜 시멘틱한 마크업을 구현할 수 있습니다. 마크업을 구현할 수 있습니다."
+                "comment": "MaroaDB을 사용하여 CRUD 문법을 이해하고 사용한 경험이 있습니다."
             },
             {
                 "name": "MongoDB",
                 "img": "/imgs/mongodb.png",
-                "comment": "웹 접근성과 보안을 지켜 시멘틱한 마크업을 구현할 수 있습니다. 마크업을 구현할 수 있습니다."
+                "comment": "."
             }
         ]
     },
