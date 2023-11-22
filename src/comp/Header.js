@@ -21,9 +21,9 @@ function Header() {
   const scrollEvent = () =>{
     setPrevScrollY(window.pageYOffset)
     if(prevScrollY < window.pageYOffset){
-      setScrollY(true)
-    } else{
       setScrollY(false)
+    } else{
+      setScrollY(true)
     }
   }
   

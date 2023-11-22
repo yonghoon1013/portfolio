@@ -17,6 +17,9 @@ function Work() {
             })
             ulRef.current.style.overflowY = 'auto';
             ulRef.current.style.maxHeight = '540px';
+            if (window.matchMedia("(max-width: 720px)").matches) {
+                ulRef.current.style.maxHeight = '210px';
+              }
         }
     }
 
@@ -88,7 +91,8 @@ function Work() {
 
                     </ul>
                 </div>
-                <div className='right' data-aos="zoom-in" data-aos-duration="1000">
+                {/* data-aos="zoom-in" data-aos-duration="1000" */}
+                <div className='right' >
                     <div className='qwe'>
                             {
                                 projectData.project.map((i,k)=>(

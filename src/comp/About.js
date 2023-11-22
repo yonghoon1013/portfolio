@@ -15,7 +15,7 @@ function About() {
             <div className='aboutCon'>
                 <div className='left'>
                     <p className='a' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                        안녕하세요 항상 노력하고 배우며 새로운<br/>
+                        안녕하세요 항상 노력하고 배우며 새로운
                         시선으로 접근하는 <span>프론트엔드 개발자 정용훈</span>입니다.
                     </p>
 
