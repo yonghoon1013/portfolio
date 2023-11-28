@@ -25,7 +25,7 @@ function Contact() {
         const formData = new FormData(e.target);
         const objData = Object.fromEntries(formData);
         // await axios.get(`http://localhost:3050/logincomment?text=${objData.text}`).then(res=>{
-        await axios.post(`svc.sel5.cloudtype.app/postcomment`, objData);
+        await axios.post(`https://port-0-portfolioserver-3szcb0g2blozeh8s7.sel5.cloudtype.app/postcomment`, objData);
         commentLoading();
         setResetText('');
         console.log(objData);
@@ -36,7 +36,7 @@ function Contact() {
         e.preventDefault();
         const formData = new FormData(e.target);
         const objData = Object.fromEntries(formData); 
-        await axios.put(`svc.sel5.cloudtype.app/updatecomment/${editNum}`, objData)
+        await axios.put(`https://port-0-portfolioserver-3szcb0g2blozeh8s7.sel5.cloudtype.app/updatecomment/${editNum}`, objData)
         .then(res=>{
             if(res.data.success){
                 commentLoading();
@@ -58,7 +58,7 @@ function Contact() {
 
 
     const commentLoading = async () => {
-        await axios.get('svc.sel5.cloudtype.app/getcomment')
+        await axios.get('https://port-0-portfolioserver-3szcb0g2blozeh8s7.sel5.cloudtype.app/getcomment')
             .then(res => {
                 setComment(res.data)
             })
