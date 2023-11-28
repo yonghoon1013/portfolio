@@ -472,6 +472,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      position: relative;
       >p{
         font-size: 24px;
         font-weight: bold;
@@ -486,12 +487,83 @@ body {
         border-radius: 10px;
         padding: 0 3%;
         background-color: #E1E2E7;
-        >p {
-          background-color: white;
-          box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
-          border-radius: 10px;
-          padding: 2%;
-          margin: 20px 0;
+        >li{
+          .userId{
+            margin-top: 10px;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+          }
+          .commentList{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .comment {
+              width: 80%;
+              background-color: white;
+              box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+              border-radius: 10px;
+              padding: 2%;
+            }
+            >button{
+  
+            }
+          }
+        }
+        .updateBox{
+          display: none;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          background-color: rgb(255, 0, 0);
+          width: 80%;
+          >div{
+            padding: 10%;
+            position: relative;
+            >.close{
+              position: absolute;
+              top: 10%;
+              right: 5%;
+              transform: translate(-5%,-10%);
+              cursor: pointer;
+            }
+            .updateForm{
+              .pp{
+                display: flex;
+                flex-direction: column;
+                >div{
+                  >span{
+                    display: inline-block;
+                    width: 20%;
+                  }
+                  >input{
+                    width: 80%;
+                  }
+                }
+                >input{
+                  margin: 3% 0;
+                  border-radius: 10px;
+                  border: none;
+                  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+                  outline: none;
+                  padding: 3%;
+                }
+                >button{
+                  width: 100%;
+                  border-radius: 10px;
+                  border: none;
+                  cursor: pointer;
+                  background-color: black;
+                  color: white;
+                  padding: 3%;
+                }
+              }
+            }
+          }
+        }
+
+        .updateBox.on{
+          display: block;
         }
       }
       .commentBox::-webkit-scrollbar {
@@ -513,25 +585,46 @@ body {
       .txtBox {
         display: flex;
         justify-content: space-between;
-        height: 10%;
-
-        >input {
+        height: 15%;
+        .uu{
           width: 80%;
-          border-radius: 20px;
-          border: none;
-          box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
-          outline: none;
-          padding-left: 3%;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          .vv{
+            display: flex;
+            justify-content: space-between;
+            height: 30%;
+            align-items: center;
+            >input{
+              height: 100%;
+              border-radius: 10px;
+              border: none;
+              box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+              outline: none;
+              padding-left: 3%;
+            }
+          }
+          >input{
+            height: 50%;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+            outline: none;
+            padding-left: 3%;
+          }
         }
 
-        >button {
-          width: 15%;
-          border-radius: 10px;
-          border: none;
-          cursor: pointer;
-          background-color: black;
-          color: white;
-        }
+                  >button {
+            width: 15%;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+          }
+
       }
     }
   }
