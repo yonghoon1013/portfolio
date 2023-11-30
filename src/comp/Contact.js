@@ -34,7 +34,6 @@ function Contact() {
         setResetText('');
         setResetIdText('');
         setResetPasswordText('');
-        console.log(objData);
         setCommentLength(comment.length);
     }
 
