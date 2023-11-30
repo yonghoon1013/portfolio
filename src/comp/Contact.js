@@ -93,7 +93,7 @@ function Contact() {
 
 
     const commentLoading = async () => {
-        await axios.get('http://localhost:3050/getcomment')
+        await axios.get('https://port-0-portfolioserver-3szcb0g2blozeh8s7.sel5.cloudtype.app/getcomment')
             .then(res => {
                 setComment(res.data)
             })
